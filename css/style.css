@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  background-color: #999999;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #D45B78;
+  border-radius: 41px;
+}
+
 body {
   font-family: Roboto;
   color: #4B4B4B;
