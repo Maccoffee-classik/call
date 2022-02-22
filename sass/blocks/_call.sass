@@ -54,6 +54,8 @@ body
 			border-right: 4px
 			border-radius: 0 5px 5px 0
 			margin-right: -4px
+			@media (max-width: 992px)
+				border-radius: 5px
 
 		a
 			color: $text-w
@@ -79,7 +81,7 @@ body
 	&__wrapper
 		align-items: center
 	&__text
-		font-size: 3.333vh
+		font-size: 2.333vh
 		font-weight: 500
 		text-align: 	right
 		margin-right: 6.458vw
@@ -93,13 +95,13 @@ body
 		align-items: 	center
 		padding: 1.481vh 3.073vw
 		color: #ffffff
-		font-size: 3.333vh
+		font-size: 2.333vh
 		font-weight: 400
 		background-color: $bg-color-red
 		filter: drop-shadow(0px 17px 32px rgba(0, 0, 0, 0.25))
 		border: none
 		border-radius: 5px
-		margin: 4.630vh auto
+		margin: 3.630vh auto
 		@media (max-width: 992px)
 			display: 	flex
 @media (min-width: 992px)
@@ -115,7 +117,7 @@ body
 		box-sizing: border-box
 		border-top: 1px solid rgba(0, 0, 0, 0.3)
 	.fixed-top
-		top: -3.5rem
+		top: -4.5rem
 
 	.navbar-expand-lg .sidenav
 		flex-direction: column
@@ -238,6 +240,7 @@ body
 		@media (max-width: 992px)
 			order: 	2
 			margin-left: 15px
+			padding: 1vh 3.277vw
 		@media (min-width: 992px)
 			margin-right: 3.438vw
 		&:hover
@@ -279,7 +282,7 @@ table.table tbody tr td
 	text-align: left
 	position: relative
 	border: 1px solid #ced4da
-	padding: 1.204vh 4.948vw 1.204vh 1.354vw
+	padding: 1.204vh 0.948vw 1.204vh 1.354vw
 	cursor: pointer
 	user-select: none
 	background: $bg-color-purple
