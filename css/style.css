@@ -3,15 +3,16 @@
   padding: 0;
 }
 
-::-webkit-scrollbar {
-  background-color: #999999;
-  margin-bottom: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #D45B78;
-  border-radius: 41px;
-  margin-bottom: 10px;
+@media (max-width: 576px) {
+  * ::-webkit-scrollbar {
+    background-color: #999999;
+    margin-bottom: 10px;
+  }
+  * ::-webkit-scrollbar-thumb {
+    background-color: #D45B78;
+    border-radius: 41px;
+    margin-bottom: 10px;
+  }
 }
 
 body {
@@ -61,6 +62,14 @@ body {
   border-radius: 5px;
 }
 
+@media (max-width: 992px) {
+  .navbar {
+    width: 89.944vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
 .bg-purple {
   background-color: #523A64 !important;
 }
@@ -101,8 +110,8 @@ body {
 
 .sidenav li {
   border-top: 3px solid #422D53;
-  padding-top: 1.6vh;
-  padding-bottom: 1.6vh;
+  padding-top: 0.6vh;
+  padding-bottom: 0.6vh;
 }
 
 .sidenav li:first-child {
@@ -151,7 +160,7 @@ body {
 .default-on {
   background-color: #FFE1E5;
   border-top: 6px solid #FFB5B5;
-  margin-bottom: 2.870vh;
+  margin-bottom: 0.870vh;
 }
 
 @media (max-width: 992px) {
@@ -277,7 +286,7 @@ body {
 }
 
 .payment {
-  margin-bottom: 7.4vh;
+  margin-bottom: 2.4vh;
   border-radius: 5px;
   align-items: center;
   display: flex;
