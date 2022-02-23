@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="fonts/font.css" rel="stylesheet">
+	<title>Calmar</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg  fixed-top bg-purple">
+		<a class="nav-link" href="#">
+			<svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M12.6663 26.6669V18.3335H19.333V26.6669C19.333 27.5835 20.083 28.3335 20.9997 28.3335H25.9997C26.9163 28.3335 27.6663 27.5835 27.6663 26.6669V15.0002H30.4997C31.2663 15.0002 31.633 14.0502 31.0497 13.5502L17.1163 1.0002C16.483 0.433529 15.5163 0.433529 14.883 1.0002L0.949675 13.5502C0.383009 14.0502 0.733008 15.0002 1.49968 15.0002H4.33301V26.6669C4.33301 27.5835 5.08301 28.3335 5.99968 28.3335H10.9997C11.9163 28.3335 12.6663 27.5835 12.6663 26.6669Z"
+					fill="#FCFCFC" />
+			</svg>
+
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+			aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto sidenav" id="navAccordion">
+				<li class="nav-item active">
+					<a class="navbar-brand" href="#">
+						<img class="logo" src="img/logo.png" alt="logo">
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Звонки</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Виджеты</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Статистика</a>
+				</li>
+
+
+
+			</ul>
+
+		</div>
+
+	</nav>
+
+	<main class="content-wrapper">
+		<div class="container">
+			<div class="navbar-right">
+
+				<div class="login">
+					<div class="login-mail">Вы вошли как groupsh@yandex.ru </div>
+					<button class="loguot-button">Выйти</button>
+				</div>
+				<div class="payment">
+					<div class="payment-info">Баланс
+						<span class="balance-time">13 мин.</span>
+						до
+						<span class="balance-date">12.11.21</span>
+					</div>
+					<div class="payment-button payment-button__top">Оплатить</div>
+				</div>
+			</div>
+
+			<div class="default-on">
+				<div class="row default-on__wrapper">
+					<div class="col-12 col-lg-6">
+						<div class="default-on__text">Ваш тариф истек</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<button class="default-on__button">
+							<svg class="default-on__button-ico" width="27" height="21" viewBox="0 0 27 21" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M25.2812 0.53125H1.71875C1.21748 0.53125 0.8125 0.93623 0.8125 1.4375V5.96875H26.1875V1.4375C26.1875 0.93623 25.7825 0.53125 25.2812 0.53125ZM0.8125 19.5625C0.8125 20.0638 1.21748 20.4688 1.71875 20.4688H25.2812C25.7825 20.4688 26.1875 20.0638 26.1875 19.5625V8.46094H0.8125V19.5625ZM17.21 14.3516C17.21 14.227 17.3119 14.125 17.4365 14.125H22.1094C22.234 14.125 22.3359 14.227 22.3359 14.3516V16.3906C22.3359 16.5152 22.234 16.6172 22.1094 16.6172H17.4365C17.3119 16.6172 17.21 16.5152 17.21 16.3906V14.3516Z"
+									fill="#FCF5F7" />
+							</svg>
+
+							Перейти к оплате</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="calling">
+				<div class="calling-block__title">Звонки</div>
+				<div class="calling-block__buttons row">
+					<div class="col-lg-3">
+						<button class="calling-block__btn-calendar">
+							<svg class="calling-block__btn-ico" width="18" height="20" viewBox="0 0 18 20" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M16 2H15V0H13V2H5V0H3V2H2C0.89 2 0.00999999 2.9 0.00999999 4L0 18C0 18.5304 0.210714 19.0391 0.585786 19.4142C0.960859 19.7893 1.46957 20 2 20H16C17.1 20 18 19.1 18 18V4C18 2.9 17.1 2 16 2ZM16 18H2V8H16V18ZM6 12H4V10H6V12ZM10 12H8V10H10V12ZM14 12H12V10H14V12ZM6 16H4V14H6V16ZM10 16H8V14H10V16ZM14 16H12V14H14V16Z"
+									fill="#9C9C9C" />
+							</svg>
+
+							23 декабря, 2021
+						</button>
+					</div>
+					<div class="col-lg-4">
+						<div class="calling-block__date-group">
+							<button class="calling-block__btn-today">Сегодня</button>
+							<button class="calling-block__btn-yesterday ">Вчера</button>
+							<button class="calling-block__btn-week">Неделя</button>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="button__vidget-group d-flex">
+							<button class="calling-block__btn-date-group-refresh">
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M11.1134 18.915C12.9863 18.7597 14.7702 18.0494 16.2373 16.8749L15.2323 15.6196C14.0149 16.5942 12.5346 17.1836 10.9805 17.3125C9.42645 17.4414 7.86924 17.1039 6.50798 16.3431C5.14672 15.5824 4.04327 14.433 3.33868 13.0418C2.63409 11.6506 2.36039 10.0809 2.55257 8.53342C2.74475 6.98589 3.39407 5.53083 4.41752 4.35426C5.44098 3.1777 6.79207 2.33308 8.29805 1.92839C9.80404 1.5237 11.3965 1.57733 12.8719 2.08242C14.107 2.50527 15.213 3.22844 16.0932 4.18192L14.5805 5.43952L19 6.48936L18.775 1.9524L17.3311 3.15277C16.2615 1.97327 14.9076 1.07971 13.3927 0.561066C11.6147 -0.0476231 9.69563 -0.112251 7.88075 0.375445C6.06586 0.863141 4.43765 1.881 3.20427 3.2989C1.97089 4.71679 1.18839 6.4703 0.956791 8.33525C0.725196 10.2002 1.05503 12.0918 1.90414 13.7683C2.75325 15.4449 4.08304 16.83 5.72351 17.7468C7.36398 18.6636 9.24059 19.0704 11.1134 18.915Z"
+										fill="white" />
+								</svg>
+
+							</button>
+							<div class="calling-block__vidget-select">
+								<select class="select" name="language">
+									<option disabled>Все виджеты</option>
+									<option value="1">Все виджеты</option>
+									<option value="2">Виджет 1</option>
+									<option value="3">Виджет 2</option>
+									<option value="4">Виджет 3</option>
+								</select>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<table class="table table-responsive">
+				<thead>
+					<tr>
+						<th class="col-numb" scope="col">№</th>
+						<th class="col-site" scope="col">Сайт</th>
+						<th class="col-data" scope="col">Дата звонка</th>
+						<th class="col-time" scope="col">Время звонка</th>
+						<th class="col-numb-client" scope="col">Номер клиента</th>
+						<th class="col-numb-meneger" scope="col">Номер менеджера</th>
+						<th class="col-source" scope="col">Источник</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+						<td class="col-numb"></td>
+						<td class="col-site"></td>
+						<td class="col-data"></td>
+						<td class="col-time"></td>
+						<td class="col-numb-client"></td>
+						<td class="col-numb-meneger"></td>
+						<td class="col-source"></td>
+					</tr>
+
+				</tbody>
+			</table>
+
+
+
+
+
+		</div>
+	</main>
+
+	<script src="js/main.js" defer=""> </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="js/bootstrap.min.js" defer=""> </script>
+	<script>
+		$(document).ready(function () {
+			$('.nav-link-collapse').on('click', function () {
+				$('.nav-link-collapse').not(this).removeClass('nav-link-show');
+				$(this).toggleClass('nav-link-show');
+			});
+		});
+	</script>
+</body>
+
+</html>
